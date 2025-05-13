@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asiya</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div id="splash">
+      <h1>Hello World!</h1>
+    </div>
+    <div class="main_content" id="main_content">
+    <header class="header">
+        <a href="#home" class="logo" data-tab="home">Asiya<span>.</span></a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+            <nav class="navbar">
+            <a href="#home" class="menu active" data-tab="home">Home</a>
+            <a href="#services" class="menu" data-tab="services">Services</a>
+            <a href="#resume" class="menu" data-tab="resume">Resume</a>
+            <a href="#projects" class="menu" data-tab="projects">Projects</a>
+            <a href="#contact" class="menu" data-tab="contact">Contact</a>
+            <button>Hire Me</button>
+            </nav>
+    </header>
+    <div class="all-content">
+    <section class="content-section home active" id="home">
+      <div class="home-content">
+        <div class="home-info">
+            <h1>Hi, I'm <br><span class="name">Asiya Begum</span></h1>
+            <div class="text-animate">
+                <h3>FrontEnd-Developer</h3>
+            </div>
+            <p>
+                Aspiring frontend developer passionate about creating modern, user-friendly web experiences.
+            </p>
+            <div class="btn-box">
+                <button class="btn"><a href="#" download>Download Resume  <i class='bx bx-download'></i></a></button>
+                <div class="soc-link">
+                <a href="https://www.linkedin.com/in/mohammadasiya" class='bx bxl-linkedin-square' id="linkedin"></a>
+                <a href="https://github.com/Asiya200" class='bx bxl-github' id="github"></a>
+                <!-- <a href='https://dribbble.com/Asiya02' class='bx bxl-dribbble' id="dribbble"></a> -->
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="photo.jpg" alt="Profile Photo">
+        </div>
+      </div>
+    </section>
+    <section class="content-section services" id="services">
+        <div class="services-content">
+            <div class="c1">
+                <h1>01</h1>
+                <h2>FrontEnd Development</h2>
+                <p>Designing and developing responsive, user-friendly websites that bring ideas to life in the browser.</p>
+            </div>
+            <div class="c1">
+                <h1>02</h1>
+                <h2>UI/UX Design</h2>
+                <p>Creating clean and intuitive user interfaces and experiences using tools like Figma, focusing on both usability and aesthetics.</p>
+            </div>
+            <div class="c1">
+                <h1>03</h1>
+                <h2>SoftWare Development</h2>
+                <p>Building simple software solutions and applications with a focus on functionality, efficiency, and problem-solving.</p>
+            </div>
+        </div>
+    </section>
+    <section class="content-section resume" id="resume">
+        <div class="resume-content">
+          <div class="tab-buttons">
+            <button class="tab-btn" data-tab="education">Education</button>
+            <button class="tab-btn" data-tab="skills">Skills</button>
+            <button class="tab-btn" data-tab="about">About Me</button>
+          </div>
+          <div class="tab-content">
+            <div class="tab education-tab" id="education">
+              <h1>My Education</h1>
+              <div class="block">
+              <div class="education-block btech">
+                <h3>2021-2024</h3>
+                <h2>Bachelor of Technology</h2>
+                <p>Kakatiya University - Kothagudem</p>
+              </div>
+              <div class="education-block diploma">
+                <h3>2018-2021</h3>
+                <h2>Diploma</h2>
+                <p>Government Polytechnic College for women - Jogipet</p>
+              </div>
+              <div class="education-block 10">
+                <h3>2017-2018</h3>
+                <h2>Class X</h2>
+                <p>Jawahar Nagar Pinion High School - Jawahar Nagar</p>
+              </div>
+              </div>
+            </div>
+      
+            <div class="tab skills-tab" id="skills">
+                <h1>My Skills</h1>
+                <div class="block">
+                <div class='bx bxl-html5 skills-block html'></div>
+                <div class='bx bxl-css3 skills-block css' ></div>
+                <div class='bx bxl-javascript skills-block js' ></div>
+                <div class='bx bxl-react skills-block react' ></div>
+                <div class='bx bxl-python skills-block py' ></div>
+                <div class='bx bxl-figma skills-block gigma' ></div>
+                </div>
+            </div>
+      
+            <div class="tab about-tab" id="about">
+              <h1>About Me</h1>
+              <div class="block about-block" >
+              <p>I am a motivated and detail-oriented individual with a strong interest in web development, UI/UX design, and software development. I enjoy turning ideas into functional and visually appealing digital experiences, with a focus on usability and responsiveness.
+                Currently, I am expanding my skills through hands-on projects and continuous learning, aiming to contribute to meaningful and innovative digital solutions.
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <section class="content-section projects" id="projects">
+        <div class="carousel">
+          <div class="carousel-track-container">
+            <ul class="carousel-track">
+              <li class="carousel-slide">
+                <!-- Project 1 -->
+                <div class="project-info">
+                  <h1>01</h1>
+                  <h2>Personal Portfolio</h2>
+                  <p>Portfolio website to showcase my projects and skills.</p>
+                  <ul>
+                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                  </ul>
+                  <div class="link">
+                    <a href=""><button class='bx bxs-navigation' ></button></a>
+                    <a href=""><button class='bx bxl-github'></button></a>
+                  </div>
+                </div>
+                <img src="portfolioproj.png" alt="">
+              </li>
+              <li class="carousel-slide">
+                <!-- Project 2 -->
+                <div class="project-info">
+                  <h1>02</h1>
+                  <h2>Amazon Clone</h2>
+                  <p>A static front page clone of Amazon built using HTML and CSS to practice layout design and responsive web development.</p>
+                  <ul>
+                    <li>HTML</li><li>CSS</li>
+                  </ul>
+                  <div class="link">
+                    <a href=""><button class='bx bxs-navigation' ></button></a>
+                    <a href="https://github.com/Asiya200/Amazon-Clone#"><button class='bx bxl-github'></button></a>
+                  </div>
+                </div>
+                <img src="amazonclone.png" alt="">
+              </li>
+              <li class="carousel-slide">
+                <!-- Project 3 -->
+                <div class="project-info">
+                  <h1>03</h1>
+                  <h2>Smart ATM Using Facial Recognition</h2>
+                  <p>A smart ATM interface that uses facial recognition to authenticate users securely before granting access to ATM functionalities. Built using Python, the system integrates OpenCV for face detection and recognition, and Tkinter for the GUI.</p>
+                  <ul>
+                    <li>Python [OpenCV, TKinter]</li>
+                  </ul>
+                  <div class="link">
+                    <a href=""><button class='bx bxs-navigation'></button></a>
+                    <a href="https://github.com/Asiya200/Smart-ATM-Using-Facial-Recognition"><button class='bx bxl-github'></button></a>
+                  </div>
+                </div>
+                <img src="SmartATM.png" alt="">
+              </li>
+            </ul>
+          </div>
+      
+          <button class="carousel-button prev">‹</button>
+          <button class="carousel-button next">›</button>
+        </div>
+    </section>      
+    <section class="content-section contact" id="contact">
+        <div class="contact-me">
+            <div class="contact-form">
+                <form  id="contactFormSubmit">
+                    <h2>Let's work Together</h2>
+                    <p>I'm currently open to full-time roles, internships, or freelance projects. If you have an opportunity or just want to connect, feel free to reach out!
+                    </p>
+                    <div class="text-grid">
+                        <input type="text" placeholder="FirstName" name="FirstName">
+                        <input type="text" placeholder="LastName" name="LastName">
+                        <input type="text" placeholder="Email Address" name="Email">
+                        <input type="text" placeholder="Phone Number" name="Number">
+                    </div>
+                    <select name="service" class="select">
+                        <option value="none">Select a Service</option>
+                        <option value="web">Web Development</option>
+                        <option value="ui/ux">UI/UX Design</option>
+                        <option value="SoftWare">Software Development</option>
+                    </select>
+                    <textarea class="msg" placeholder="Type your message here" name="message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-details">
+                <ul>
+                    <li>
+                        <div class="details">
+                            <div class='bx bxs-phone-call' id="phone-logo"></div>
+                            <div class="info">
+                                <p class="label" id="phone">Phone</p>
+                                <h3>(+91) 6303043071</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="details">
+                            <div class='bx bxs-envelope' id="mail-logo" ></div>
+                            <div class="info">
+                                <p class="label" id="mail">Email</p>
+                                <h3>mohammadasiya92@gmail.com</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="details">
+                            <div class='bx bx-current-location' id="address-logo"></div>
+                            <div class="info">
+                                <p class="label" id="address">Address</p>
+                                <h3>Jawahar Nagar Medchal Hyderabad Telangana-500087</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
